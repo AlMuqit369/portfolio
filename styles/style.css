@@ -86,6 +86,10 @@ nav li a {
     font-size: 85px;
     font-weight: bold;
 }
+.banner-p {
+    font-size: 18px;
+    margin: 20px 0;
+}
 main{
     max-width: 1200px;
     margin: 0 auto;
