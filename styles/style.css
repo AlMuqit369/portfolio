@@ -24,6 +24,17 @@
     border-radius: 20px;
     text-decoration: none;
 }
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color:#27AE60;
+}
+.section-description {
+    font-size: 18px;
+}
+.text-center {
+    align-items: center;
+}
 /*header style*/
 .header {
     background-image: url('../images/7.png');    ;
@@ -73,5 +84,23 @@ nav li a {
 }
 .banner-name {
     font-size: 85px;
+    font-weight: bold;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*about style*/
+.about-me{
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 150px ;
+    margin-top: 130px ; 
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
     font-weight: bold;
 }
